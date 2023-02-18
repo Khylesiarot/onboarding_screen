@@ -34,8 +34,12 @@ class IntroScreen extends StatelessWidget {
           image: Image.asset("image/1.png", height: 400, width: 400,),
           ),
         ],
-        onDone: (){},
-        onSkip: (){},
+        onDone: (){
+          Navigator.pushNamed(context, "home");
+        },
+        onSkip: (){
+          Navigator.pushNamed(context, "home");
+        },
         showSkipButton: true,
         skip: Text(
           "Skip",
