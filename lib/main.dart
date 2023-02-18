@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'HomeScreen.dart';
 import 'IntroScreen.dart';
 
 void main() {
